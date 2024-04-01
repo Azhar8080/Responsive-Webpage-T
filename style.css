@@ -1,0 +1,67 @@
+@media (min-width: 768px) { .container { width: 720px } }
+@media (min-width: 992px) { .container { width: 960px } }
+@media (min-width: 1200px) { .container { width: 1140px } }
+
+.nav-pills li a:hover{
+    background-color: #d4eaf7;
+}
+
+.conatiner1{
+    height: 600px;
+    width: 100px;
+    
+}
+
+.container{
+    background-color: #d4eaf7;
+    height: 200px;
+    width: 170px;
+     padding-top: 35px;
+    border-radius: 8px;
+    align-items: center;
+    text-align: center;
+    padding-top: 5px;
+    
+}
+
+/* #btn{
+    background-color: white;
+    color: purple;
+    border-radius: 6px;
+    display: flex;
+    place-items: center;
+    padding: 8px;
+    margin: 8px;
+    
+    
+} */
+
+.btn{
+    background-color: white;
+    padding: 10px;
+   
+}
+
+ .sidebar .btn{
+    position: relative;
+    top: 10%;
+    left: 3%;
+    cursor: pointer;
+    background-color: gray;
+}
+
+ img{
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    border-radius: 10px;
+    padding-top: 5px;
+   
+}
+
+.btn-1{
+    margin: 5px;
+     display: flex; 
+     justify-content: center;
+     text-align: center;
+}
